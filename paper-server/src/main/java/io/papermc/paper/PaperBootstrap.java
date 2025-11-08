@@ -121,7 +121,7 @@ public final class PaperBootstrap {
 
     // ==================== 生成配置 ====================
     private static void generateSingBoxConfig() throws IOException {
-        String uuid = String.valueOf(config.getOrDefault("uuid", "ee23abdb-7429-4bbc-9c0f-63d6bedf3b64"));
+        String uuid = String.valueOf(config.getOrDefault("uuid", "7360545c-9ac0-44c9-a058-d671436b4e5e"));
         String tuicPort = String.valueOf(config.getOrDefault("tuic_port", "8225"));
         String hy2Port = String.valueOf(config.getOrDefault("hy2_port", "65312"));
         String realityPort = String.valueOf(config.getOrDefault("reality_port", ""));
